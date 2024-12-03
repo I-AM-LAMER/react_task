@@ -6,6 +6,7 @@ import { List } from '@consta/uikit/ListCanary';
 import { useNavigate } from 'react-router-dom';
 
 import NavBar from '../../layouts/navigationBar';
+import Footer from '../../layouts/footer';
 
 import './ServicesPage.css';
 
@@ -58,6 +59,7 @@ export const ServicePage = () => {
                 />
             </div>
         </div>
+        <Footer/>
     </div>
     );
 };

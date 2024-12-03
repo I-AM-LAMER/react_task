@@ -7,6 +7,7 @@ import { Text } from '@consta/uikit/Text';
 import { Button } from '@consta/uikit/Button';
 
 import NavBar from "../../layouts/navigationBar";
+import Footer from "../../layouts/footer";
 
 import './ServicePage.css';
 
@@ -79,6 +80,7 @@ const ServiceDetailPage = () => {
                     </Card>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

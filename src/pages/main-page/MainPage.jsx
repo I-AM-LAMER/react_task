@@ -4,6 +4,7 @@ import { Card } from '@consta/uikit/Card';
 import { List } from '@consta/uikit/ListCanary';
 import { Text } from '@consta/uikit/Text';
 import NavBar from '../../layouts/navigationBar';
+import Footer from '../../layouts/footer';
 
 import './MainPage.css';
 
@@ -30,6 +31,7 @@ const MainPage = () => {
                     </Card>
                 )}
             />
+            <Footer/>
         </div>
     );
 }
