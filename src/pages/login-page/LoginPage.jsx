@@ -62,6 +62,7 @@ function LoginPage() {
       localStorage.setItem('accessToken', data.accessToken);
       localStorage.setItem('refreshToken', data.refreshToken);
       localStorage.setItem('firstName', data.firstName);
+      localStorage.setItem('lastName', data.lastName)
 
       dispatch(set_user(data));
       dispatch(login())
