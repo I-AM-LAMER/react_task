@@ -66,12 +66,16 @@ const ProfilePage = () => {
                                 )}
                                 <Text size="l" weight="bold" className="profile-name">
                                     {profile.firstName}
-                                    {'  '}
+                                    {' '}
                                     {profile.lastName}
-                                    {'  '}
-                                    {profile.email}
-                                    {'  '}
+                                </Text>
+                                <Text size="m" weight="bold" className="profile-lname">
                                     {profile.gender}
+                                    {' '}
+                                </Text>
+                                <Text size="m" className="profile-email">
+                                    {profile.email}
+                                    {' '}
                                 </Text>
                                 <Button label="Назад" onClick={() => window.history.back()} className="back-button" />
                             </div>
