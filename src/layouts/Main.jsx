@@ -13,7 +13,7 @@ const MainLayout = () => {
       checkToken().then((data) => {
         if (data) {
           dispatch(login());
-          dispatch(set_user(localStorage.getItem('firstName')));
+          dispatch(set_user('adsad'));
         } else {
           dispatch(logout());
           dispatch(remove_user());

@@ -13,7 +13,7 @@ export const authSlice = createSlice({
     logout: (state) => {
       localStorage.removeItem('accessToken')
       localStorage.removeItem('refreshToken')
-      localStorage.removeItem('firstName')
+      localStorage.setItem('firstName', 'ФИО')
       localStorage.removeItem('lastName')
       state.value = false
     },

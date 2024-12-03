@@ -14,7 +14,7 @@ const checkToken = async () => {
       console.error("Ошибка при проверке токена:", error);
       localStorage.removeItem("accessToken");
       localStorage.removeItem("refreshToken");
-      return null;
+      return false;
     }
   }; 
 
