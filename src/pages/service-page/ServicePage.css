@@ -1,0 +1,81 @@
+.service-detail-container {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+.service-detail-card {
+    margin: 20px auto;
+}
+
+.card-style {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.back-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.no-data-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
