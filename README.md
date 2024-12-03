@@ -1,69 +1,17 @@
-# React-Redux Project
+Сайт для сотрудников Сириус Описание
 
-This project is a basic setup for a React application using Redux for state management. Using the idea of employee profile page
+Этот сайт предназначен для сотрудников компании Сириус.
 
-## Table of Contents
+Он включает в себя разделы с информацией о сервисах компании, новостями и возможностью входа для сотрудников.
 
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Learn More](#learn-more)
+На сайте также доступны основные функции для взаимодействия с внутренними материалами компании. Функциональные возможности
 
-## Getting Started
+Главная страница: Просмотр новостей и сообщений, связанных с деятельностью компании.
 
-To get started with this project, follow these steps:
+Вход в систему: Сотрудники могут войти в систему для доступа к защищённым данным и ресурсам.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/I-AM-LAMER/react_task
-```
+Сервисы компании: Доступ к важной информации и внутренним сервисам.
 
-2. Install dependencies:
-```bash
-cd react_task
-npm install
-```
-3. Start the development server:
+Профиль сотрудника: Возможность увидеть имя сотрудника при входе в систему Запуск
 
-```bash
-npm run start
-```
-
-## Project Structure
-
-react-redux-project/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-├── src/
-│   ├── components/
-│   │   ├── app/
-│   │   │   ├── App.jsx
-│   │   │   ├── AuthRoute.jsx
-│   │   │   └── store.js
-│   │   └── ... (other components)
-│   ├── layouts/
-│   │   └── Main.jsx
-│   ├── pages/
-│   │   ├── main-page/
-│   │   │   └── MainPage.jsx
-│   │   ├── services-page/
-│   │   │   └── ServicesPage.jsx
-│   │   └── ... (other pages)
-│   ├── index.js
-│   └── ... (other files)
-├── .gitignore
-├── package.json
-├── README.md
-└── ... (other configuration files)
-
-## Learn More
-
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-To learn Redux, check out the Redux documentation.
+Запуск npm run start
